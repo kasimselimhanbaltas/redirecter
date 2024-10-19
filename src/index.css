@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.error {
+  height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 32px;
+  position: relative;
+}
+
+.error-gif {
+  max-width: 80%;
+  position: absolute;
+  top: 100px;
+}
+
+.error h3 {
+  padding: 30px;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #0c0513;
+  background-image: url(./pre.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
